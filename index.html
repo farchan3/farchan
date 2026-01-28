@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Farchan — Profil</title>
+    <meta name="description" content="Landing page profil Farchan: bio singkat, proyek, link sosial, dan kontak." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://farchan.indevs.in/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Farchan — Profil" />
+    <meta property="og:description" content="Landing page profil Farchan: bio singkat, proyek, link sosial, dan kontak." />
+    <meta property="og:url" content="https://farchan.indevs.in/" />
+    <meta property="og:image" content="https://farchan.indevs.in/assets/og.svg" />
+    <meta property="og:image:alt" content="Kartu profil Farchan" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Farchan — Profil" />
+    <meta name="twitter:description" content="Landing page profil Farchan: bio singkat, proyek, link sosial, dan kontak." />
+    <meta name="twitter:image" content="https://farchan.indevs.in/assets/og.svg" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/favicon.svg" />
+    <meta name="theme-color" content="#0b1220" />
+
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/main.js" defer></script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Lewati ke konten</a>
+
+<header class="site-header" role="banner">
+    <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Beranda Farchan">
+            <span class="brand-mark" aria-hidden="true">F</span>
+            <span class="brand-text">Farchan</span>
+        </a>
+
+        <nav class="nav" aria-label="Navigasi utama">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#links">Links</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            <span class="theme-ico" aria-hidden="true">☾</span>
+            <span class="theme-label">Dark</span>
+        </button>
+    </div>
+</header>
+
+<main id="main" class="main" role="main">
+    <!-- HERO -->
+    <section class="hero container" aria-label="Perkenalan" data-reveal>
+        <div class="hero-card">
+            <div class="hero-left">
+                <p class="kicker">Landing Page</p>
+                <h1 class="headline">
+                    Halo, saya <span class="accent">Farchan</span>.
+                </h1>
+                <p class="subhead">
+                    Saya membangun solusi digital yang <strong>ringan</strong>, <strong>cepat</strong>, dan <strong>mobile-first</strong>.
+                    Ini halaman profil untuk bio, proyek, link sosial, dan kontak.
+                </p>
+
+                <div class="hero-cta">
+                    <a class="btn primary" href="#projects">Lihat Proyek</a>
+                    <a class="btn" href="#contact">Hubungi</a>
+                </div>
+
+                <dl class="hero-meta" aria-label="Ringkasan">
+                    <div>
+                        <dt>Fokus</dt>
+                        <dd>Frontend • Apps Script • Automasi</dd>
+                    </div>
+                    <div>
+                        <dt>Lokasi</dt>
+                        <dd>Indonesia</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div class="hero-right">
+                <div class="avatar-wrap" aria-label="Avatar Farchan">
+                    <img class="avatar" src="/assets/img.png" width="160" height="160" alt="Avatar placeholder Farchan" loading="lazy" decoding="async" />
+                </div>
+
+                <div class="mini-cards" aria-label="Highlight">
+                    <div class="mini-card">
+                        <p class="mini-title">Kecepatan</p>
+                        <p class="mini-desc">Optimasi perf & UX</p>
+                    </div>
+                    <div class="mini-card">
+                        <p class="mini-title">Kerapian</p>
+                        <p class="mini-desc">Komponen & struktur jelas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container" aria-label="Tentang saya" data-reveal>
+        <div class="section-head">
+            <h2>About</h2>
+            <p>Ringkas, jelas, siap diedit.</p>
+        </div>
+
+        <div class="card">
+            <p>
+                <strong>Farchan</strong> adalah brand personal saya. Saya suka membuat web/app yang rapi, cepat dibuka,
+                nyaman di HP, dan mudah dipelihara. Biasanya saya mengerjakan integrasi Google Workspace (Sheets/Drive),
+                dashboard ringan, dan landing page yang fokus pada konversi.
+            </p>
+            <ul class="bullets">
+                <li>Mobile-first UI, aksesibel (keyboard + fokus jelas)</li>
+                <li>Perf: minim asset, tanpa gambar berat</li>
+                <li>Deploy simpel: GitHub Pages + custom domain + HTTPS</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container" aria-label="Proyek" data-reveal>
+        <div class="section-head">
+            <h2>Projects</h2>
+            <p>Contoh data dummy — ganti judul, deskripsi, dan link sesukamu.</p>
+        </div>
+
+        <div class="grid">
+            <article class="card project">
+                <h3>Digital Attendance</h3>
+                <p>Web absensi ringan dengan caching cerdas, cocok untuk jaringan lemah.</p>
+                <div class="tags" aria-label="Teknologi">
+                    <span>HTML</span><span>Apps Script</span><span>Sheets</span>
+                </div>
+                <div class="actions">
+                    <a class="link" href="#" rel="noopener noreferrer">Demo</a>
+                    <a class="link" href="#" rel="noopener noreferrer">Source</a>
+                </div>
+            </article>
+
+            <article class="card project">
+                <h3>Jurnal Guru</h3>
+                <p>Form jurnal harian yang rapih, validasi input, dan laporan otomatis.</p>
+                <div class="tags" aria-label="Teknologi">
+                    <span>GAS</span><span>Drive</span><span>UI</span>
+                </div>
+                <div class="actions">
+                    <a class="link" href="#" rel="noopener noreferrer">Demo</a>
+                    <a class="link" href="#" rel="noopener noreferrer">Source</a>
+                </div>
+            </article>
+
+            <article class="card project">
+                <h3>Profile Landing</h3>
+                <p>Template profil modern, cepat, SEO-ready, deploy via GitHub Pages.</p>
+                <div class="tags" aria-label="Teknologi">
+                    <span>SEO</span><span>OG</span><span>Performance</span>
+                </div>
+                <div class="actions">
+                    <a class="link" href="#" rel="noopener noreferrer">Demo</a>
+                    <a class="link" href="#" rel="noopener noreferrer">Source</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- LINKS -->
+    <section id="links" class="section container" aria-label="Tautan" data-reveal>
+        <div class="section-head">
+            <h2>Links</h2>
+            <p>Link sosial + kontak cepat.</p>
+        </div>
+
+        <div class="grid links">
+            <a class="card link-card" href="https://github.com/USERNAME" target="_blank" rel="noopener noreferrer">
+                <div class="link-ico" aria-hidden="true">⌂</div>
+                <div>
+                    <p class="link-title">GitHub</p>
+                    <p class="link-sub">github.com/USERNAME</p>
+                </div>
+            </a>
+
+            <a class="card link-card" href="https://instagram.com/USERNAME" target="_blank" rel="noopener noreferrer">
+                <div class="link-ico" aria-hidden="true">◎</div>
+                <div>
+                    <p class="link-title">Instagram</p>
+                    <p class="link-sub">@USERNAME</p>
+                </div>
+            </a>
+
+            <a class="card link-card" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
+                <div class="link-ico" aria-hidden="true">✆</div>
+                <div>
+                    <p class="link-title">WhatsApp</p>
+                    <p class="link-sub">+62 812-3456-7890</p>
+                </div>
+            </a>
+
+            <a class="card link-card" href="mailto:emailkamu@example.com?subject=Halo%20Farchan">
+                <div class="link-ico" aria-hidden="true">✉</div>
+                <div>
+                    <p class="link-title">Email</p>
+                    <p class="link-sub">emailkamu@example.com</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container" aria-label="Kontak" data-reveal>
+        <div class="section-head">
+            <h2>Contact</h2>
+            <p>CTA sederhana: cepat, jelas, tanpa form server-side.</p>
+        </div>
+
+        <div class="card contact">
+            <div class="contact-text">
+                <h3>Mau kolaborasi atau butuh landing page yang cepat?</h3>
+                <p>
+                    Kirim pesan via WhatsApp atau email. Saya balas secepat mungkin.
+                </p>
+            </div>
+            <div class="contact-cta">
+                <a class="btn primary" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">Chat WhatsApp</a>
+                <a class="btn" href="mailto:emailkamu@example.com?subject=Kerja%20Sama%20dengan%20Farchan">Kirim Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container" role="contentinfo">
+        <p>© <span data-year></span> Farchan • Built for speed • <a class="footer-link" href="#main">Back to top</a></p>
+    </footer>
+</main>
+</body>
+</html>
